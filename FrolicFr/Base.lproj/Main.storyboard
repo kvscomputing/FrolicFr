@@ -30,7 +30,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Create Account"/>
                                 <connections>
                                     <action selector="createAccount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YOc-WA-nVJ"/>
-                                    <segue destination="hnN-PR-YPJ" kind="presentation" id="u6Y-Ly-bP8"/>
+                                    <segue destination="hnN-PR-YPJ" kind="presentation" animates="NO" id="u6Y-Ly-bP8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0g4-be-O8V">
@@ -54,9 +54,9 @@
         <!--View Controller-->
         <scene sceneID="R38-ki-dhh">
             <objects>
-                <viewController id="hnN-PR-YPJ" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hnN-PR-YPJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dvr-B4-N0j">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IT0-o6-kyQ">
@@ -90,6 +90,7 @@
                         <viewLayoutGuide key="safeArea" id="RGa-QW-mlI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eEW-YI-m4M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VIb-lM-pEX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="ZFQ-uQ-2OB" userLabel="Exit" sceneMemberID="exit"/>
