@@ -16,6 +16,9 @@ class SignInViewController: UIViewController {
     }
     
 
+    @IBAction func signIn(_ sender: UIButton) {
+        //go to sign in page
+    }
     /*
     // MARK: - Navigation
 

@@ -66,6 +66,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In"/>
                                 <connections>
+                                    <action selector="signIn:" destination="WES-cO-er5" eventType="touchUpInside" id="zQQ-uo-Mxd"/>
                                     <segue destination="Jfj-mv-teV" kind="show" animates="NO" id="OAy-gq-y9d"/>
                                 </connections>
                             </button>
@@ -88,6 +89,7 @@
                     <navigationItem key="navigationItem" id="RGe-dP-Uvq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oT7-m9-S9F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="WES-cO-er5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="330.76923076923077" y="693.83886255924165"/>
         </scene>
