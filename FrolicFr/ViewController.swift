@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func createAccount(_ sender: UIButton) {
+        //go to create account screen
+    }
+    
+    
+    @IBAction func login(_ sender: UIButton) {
+        //go to login screen
+    }
+    
 }
 
