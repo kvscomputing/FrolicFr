@@ -14,7 +14,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FrolicFr" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ViewController.swift">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -58,7 +58,7 @@
         <scene sceneID="Y9e-fP-9y7">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="DJ5-AJ-6kI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pb7-5A-LHh">
+                    <view key="view" contentMode="scaleToFill" id="pb7-5A-LHh" customClass="SignInViewController.swift">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -99,7 +99,7 @@
         <scene sceneID="ogW-re-UEQ">
             <objects>
                 <viewController id="TWb-6r-AZk" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0zq-aC-2sY">
+                    <view key="view" contentMode="scaleToFill" id="0zq-aC-2sY" customClass="ProfileViewController.swift">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="V0a-Ll-SoF"/>
@@ -114,7 +114,7 @@
         <scene sceneID="R38-ki-dhh">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="hnN-PR-YPJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dvr-B4-N0j">
+                    <view key="view" contentMode="scaleToFill" id="Dvr-B4-N0j" customClass="CreateAccountViewController.swift">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -161,7 +161,7 @@
         <scene sceneID="X7m-5p-wfw">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Jfj-mv-teV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9AS-Kp-wLU">
+                    <view key="view" contentMode="scaleToFill" id="9AS-Kp-wLU" customClass="HomePage.swift">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -177,7 +177,7 @@
                                 <state key="normal" title="Sort By:"/>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NS0-9M-VDE">
-                                <rect key="frame" x="187" y="31" width="202" height="44"/>
+                                <rect key="frame" x="187" y="31" width="201" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
