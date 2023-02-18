@@ -96,6 +96,21 @@
             <point key="canvasLocation" x="330.76923076923077" y="693.83886255924165"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="ogW-re-UEQ">
+            <objects>
+                <viewController id="TWb-6r-AZk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0zq-aC-2sY">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="V0a-Ll-SoF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="scP-oi-hwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="720"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="R38-ki-dhh">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="hnN-PR-YPJ" sceneMemberID="viewController">
@@ -162,7 +177,7 @@
                                 <state key="normal" title="Sort By:"/>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NS0-9M-VDE">
-                                <rect key="frame" x="187" y="31" width="203" height="44"/>
+                                <rect key="frame" x="187" y="31" width="202" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
