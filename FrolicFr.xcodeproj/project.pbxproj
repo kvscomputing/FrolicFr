@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4952E28F29A18E01002AEBAF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952E28E29A18E01002AEBAF /* Event.swift */; };
+		4952E29129A19004002AEBAF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952E29029A19004002AEBAF /* Profile.swift */; };
 		499CA6CC29A1694800CFA0D3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CA6CB29A1694800CFA0D3 /* HomePage.swift */; };
 		B4FF106C29A1592B00AB5E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF106B29A1592B00AB5E29 /* AppDelegate.swift */; };
 		B4FF106E29A1592B00AB5E29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF106D29A1592B00AB5E29 /* SceneDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4952E28E29A18E01002AEBAF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4952E29029A19004002AEBAF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		499CA6CB29A1694800CFA0D3 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		B4FF106829A1592B00AB5E29 /* FrolicFr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrolicFr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FF106B29A1592B00AB5E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				B4FF106B29A1592B00AB5E29 /* AppDelegate.swift */,
+				4952E28E29A18E01002AEBAF /* Event.swift */,
+				4952E29029A19004002AEBAF /* Profile.swift */,
 				B4FF106D29A1592B00AB5E29 /* SceneDelegate.swift */,
 				B4FF106F29A1592B00AB5E29 /* ViewController.swift */,
 				B4FF108529A16D4700AB5E29 /* SignInViewController.swift */,
@@ -150,12 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4952E28F29A18E01002AEBAF /* Event.swift in Sources */,
 				499CA6CC29A1694800CFA0D3 /* HomePage.swift in Sources */,
 				B4FF108229A160A400AB5E29 /* CreateAccountViewController.swift in Sources */,
 				B4FF108629A16D4700AB5E29 /* SignInViewController.swift in Sources */,
 				B4FF107029A1592B00AB5E29 /* ViewController.swift in Sources */,
 				B4FF108829A17F9D00AB5E29 /* ProfileViewController.swift in Sources */,
 				B4FF106C29A1592B00AB5E29 /* AppDelegate.swift in Sources */,
+				4952E29129A19004002AEBAF /* Profile.swift in Sources */,
 				B4FF106E29A1592B00AB5E29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
