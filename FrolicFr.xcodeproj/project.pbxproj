@@ -15,6 +15,7 @@
 		B4FF107529A1592C00AB5E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FF107429A1592C00AB5E29 /* Assets.xcassets */; };
 		B4FF107829A1592C00AB5E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FF107629A1592C00AB5E29 /* LaunchScreen.storyboard */; };
 		B4FF108229A160A400AB5E29 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF108129A160A400AB5E29 /* CreateAccountViewController.swift */; };
+		B4FF108629A16D4700AB5E29 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF108529A16D4700AB5E29 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B4FF107729A1592C00AB5E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4FF107929A1592C00AB5E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4FF108129A160A400AB5E29 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B4FF108529A16D4700AB5E29 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B4FF106B29A1592B00AB5E29 /* AppDelegate.swift */,
 				B4FF106D29A1592B00AB5E29 /* SceneDelegate.swift */,
 				B4FF106F29A1592B00AB5E29 /* ViewController.swift */,
+				B4FF108529A16D4700AB5E29 /* SignInViewController.swift */,
 				B4FF107129A1592B00AB5E29 /* Main.storyboard */,
 				499CA6CB29A1694800CFA0D3 /* HomePage.swift */,
 				B4FF108129A160A400AB5E29 /* CreateAccountViewController.swift */,
@@ -146,6 +149,7 @@
 			files = (
 				499CA6CC29A1694800CFA0D3 /* HomePage.swift in Sources */,
 				B4FF108229A160A400AB5E29 /* CreateAccountViewController.swift in Sources */,
+				B4FF108629A16D4700AB5E29 /* SignInViewController.swift in Sources */,
 				B4FF107029A1592B00AB5E29 /* ViewController.swift in Sources */,
 				B4FF106C29A1592B00AB5E29 /* AppDelegate.swift in Sources */,
 				B4FF106E29A1592B00AB5E29 /* SceneDelegate.swift in Sources */,
