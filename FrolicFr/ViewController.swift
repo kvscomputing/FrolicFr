@@ -15,9 +15,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func createAccount(_ sender: UIButton) {
+        //open create account page
     }
     
     @IBAction func signIn(_ sender: UIButton) {
+        //open sign in page
     }
     //test2
 }
