@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499CA6CC29A1694800CFA0D3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CA6CB29A1694800CFA0D3 /* HomePage.swift */; };
 		B4FF106C29A1592B00AB5E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF106B29A1592B00AB5E29 /* AppDelegate.swift */; };
 		B4FF106E29A1592B00AB5E29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF106D29A1592B00AB5E29 /* SceneDelegate.swift */; };
 		B4FF107029A1592B00AB5E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF106F29A1592B00AB5E29 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		499CA6CB29A1694800CFA0D3 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		B4FF106829A1592B00AB5E29 /* FrolicFr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrolicFr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FF106B29A1592B00AB5E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4FF106D29A1592B00AB5E29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				B4FF106D29A1592B00AB5E29 /* SceneDelegate.swift */,
 				B4FF106F29A1592B00AB5E29 /* ViewController.swift */,
 				B4FF107129A1592B00AB5E29 /* Main.storyboard */,
+				499CA6CB29A1694800CFA0D3 /* HomePage.swift */,
 				B4FF108129A160A400AB5E29 /* CreateAccountViewController.swift */,
 				B4FF107429A1592C00AB5E29 /* Assets.xcassets */,
 				B4FF107629A1592C00AB5E29 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499CA6CC29A1694800CFA0D3 /* HomePage.swift in Sources */,
 				B4FF108229A160A400AB5E29 /* CreateAccountViewController.swift in Sources */,
 				B4FF107029A1592B00AB5E29 /* ViewController.swift in Sources */,
 				B4FF106C29A1592B00AB5E29 /* AppDelegate.swift in Sources */,
